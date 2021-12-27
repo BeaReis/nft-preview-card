@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://github.com/BeaReisnft-preview-card/blob/main/screenshot.png?raw=true)
+![](https://github.com/BeaReis/nft-preview-card/blob/main/screenshot.png)
 
 ### Links
 
