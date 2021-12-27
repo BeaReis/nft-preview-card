@@ -1,0 +1,153 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);  
+}
+
+/*Main Content*/
+
+#content {
+    background-color:  hsl(216, 50%, 16%);
+    width: 285px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 22px;
+    margin-top: 5%;
+    scale: 0.875;
+}
+
+.image-nft {
+    width: 100%;
+    margin: auto;
+    border-radius: 3%;
+    border-style: hidden;
+}
+
+.nft-container {
+    background-color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 3%;
+    position: relative;
+}
+
+.image-view {
+    position: absolute;
+    align-self: center;
+    visibility: hidden;
+}
+
+/*Title and Descrition*/
+
+.text-container {
+    margin: 20px 0 0 0;
+}
+
+.title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.text-content {
+    font-size: 17px;
+}
+
+/*Grid layout to align eth & clock divs*/
+
+.eth-clock-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+}
+
+/*Etherium Div*/
+
+.image-eth {
+    margin-right: 5%;
+}
+
+.text-eth {
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(178, 100%, 50%);
+}
+
+.eth-container {
+    display: flex;
+    align-items: center;
+}
+
+/*Clock Div*/
+
+.image-clock {
+    margin-right: 5%;
+}
+
+.text-clock {
+    font-size: 15px;
+}
+
+.clock-container {
+    display: flex;
+    align-items: center;
+}
+
+/*Horizontal Line*/
+
+.hr-style {
+    color: hsl(215, 32%, 27%);
+}
+
+.clear {
+    clear: both;
+}
+
+/*Creator Div*/
+
+.image-creator {
+    width: 10%;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 5%;
+}
+
+.text-creator {
+    margin-right: 2%;
+    font-size: 15px;
+}
+
+.creator-container {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+/*Hover State*/
+
+.link:hover, .title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.image-nft:hover {
+    opacity: 0.5;
+}
+
+.nft-container:hover > .image-view {
+    visibility: visible;
+    pointer-events: none;
+}
