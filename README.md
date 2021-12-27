@@ -17,8 +17,6 @@ Users should be able to:
 
 - https://beareis.github.io/nft-preview-card/
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
