@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- git@github.com:BeaReis/nft-preview-card.git
+- https://beareis.github.io/nft-preview-card/
 
 ## My process
 
